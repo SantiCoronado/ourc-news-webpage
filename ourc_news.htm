@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>OURC News Items</title>
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<link rel="shortcut icon" href="images/favicon.ico" />
+
+</head>
+<body>
+
+<div id="page">
+  <div id="header">
+	<div id="logo"><a href=""><img src="images/ou_logo.png" alt="Open Univeristy logo"/></a></div>
+	<ul class="none">
+		<li class="text">Welcome 'Username'!</li>
+		<li class="nav"><a href="">Log out</a></li>
+		<li class="nav"><a href="">Contact us</a></li>
+	</ul>
+		
+	<div class="title">Administration Application</div>
+
+	<div id="separator_bar"><img src="images/blue_bar_rd.jpg" alt="Separator bar"/></div>
+	<div class="header_image"><img src="images/section_image.png" alt="Header section image"/></div>
+	<div id="separator_bar2"><img src="images/blue_bar_rd2.png" alt="Separator bar"/></div>
+</div>
+
+	<div id="navbar">
+	  <div class="hmenu"><a href="">Home</a></div>
+          <div class="hmenu"><a href="">New Member</a></div>
+          <div class="hmenu"><a href="">Social Calendar</a></div>
+          <div class="hmenu"><a href="">Race Details</a></div>
+          <div class="hmenu"><div id="sel"><a href="">Announcements</a></div></div>
+	  <div class="hmenu"><a href="">Admin Access</a></div>
+</div>
+
+	<ul id="breadcrumbs" class="none">
+	  <li><a href="#">Home</a></li>
+	  <li>&gt;</li>
+	  <li><a href="#">Announcements</a></li>
+	  <li>&gt;</li>
+	  <li><div class="sel">News Items</div></li>
+	</ul>
+
+	<ul id="tabs">
+	  <li><div class="sel">Add News</div></li>
+	  <li><a href="">Scheduled News</a></li>
+	</ul>
+  
+
+  <form action="http://students.open.ac.uk/mct/tt284/reflect/reflect.php"
+      method="post" id="ourcnewsitem">
+
+	<div id="schedule_dates">
+	  <div id="first_date"><p>First showing on (DD/MM/YY):</p>
+	    <ul class="input_date">
+		<li><input type="text" name="FirstOnDay" size="2" maxlength="2"/></li>
+		<li>/</li>	
+		<li><input type="text" name="FirstOnMonth" size="2" maxlength="2"/></li>
+		<li>/</li>
+		<li><input type="text" name="FirstOnYear" size="2" maxlength="2"/></li>
+	    </ul>
+	    <div class="star"><div class="star"><p>*</p></div></div>
+	  </div>
+	
+	  <div id="last_date"><p>Last showing on (DD/MM/YY):</p>
+	    <ul class="input_date">
+		<li><input type="text" name="LastOnDay" size="2" maxlength="2"/></li>
+		<li>/</li>	
+		<li><input type="text" name="LastOnMonth" size="2" maxlength="2"/></li>
+		<li>/</li>
+		<li><input type="text" name="LastOnYear" size="2" maxlength="2"/></li>
+	    </ul>
+	    <div class="star"><p>*</p></div>
+	  </div>
+	</div>
+
+	<div id="news_content">
+	  <textarea name="NewsContent" cols="100" rows="7" onfocus="if(this.value==this.defaultValue)this.value='';">
+Content of the news on no more than 300 words...</textarea>
+	  <div class="star"><div class="star"><p>*</p></div></div>
+	</div>
+
+	<p><input type="hidden" name="sessionID" value="ABCDEF01-AABB-CCDD-EEFF-ABCDEF012345"/></p>
+
+	<div id="buttons">
+  	  <div id="cancel_button"><input type="reset" value="Cancel"/></div>
+  	  <div id="schedule_button"><input type="submit" name="ourcnewsitem" value="Schedule"/></div>
+</div>
+	  <div class="mandatory_fields"><p>* Mandatory fields</p></div>
+
+  </form>
+
+  <div id="separator_bar3"><img src="images/blue_bar.png" alt="Separator bar"/></div>
+
+  <div id="footer">
+	<p>The Open University</p>
+	<p class="smaller">© Copyright 2014. All rights Reserved</p>
+  </div>
+
+
+</div>
+
+</body>
+
+</html>
+
